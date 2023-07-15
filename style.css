@@ -2,3 +2,73 @@
     font-family: 'Tektur', cursive;
     margin: auto;
 }
+
+/* checkout section start */
+.checkout-container{
+    margin: 0 150px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.column{
+    border: 1px solid black;
+
+}
+.checkout{
+    width: 50%;
+    padding: 20px 50px;
+    width: 50%;
+}
+.checkout input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(207, 207, 207);
+}
+.contact-information, .shipping-address h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.column-input{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.country{
+    width: calc((100% - 30px) / 2);
+}
+.save-information label{
+    margin-left: 10px;
+}
+.continue-btn{
+    display: flex;
+}
+.continue-btn button{
+    padding: 10px 15px;
+    text-align: right;
+    margin-right: -40px;
+}
+/* cart product section start */
+.cart-product{
+    margin:100px 20px;
+    width: 40%;
+}
+.product{
+    display: flex;
+    gap: 20px;
+}
+.total{
+    display: grid;
+}
+.product img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+/* section start */
+/* section start */
+/* section start */
+/* section start */
+/* section start */
