@@ -3,20 +3,20 @@
     margin: auto;
 }
 
+.heading{
+    font-size: 50px;
+    margin-left: 200px;
+}
 /* checkout section start */
 .checkout-container{
     margin: 0 150px;
     display: flex;
     justify-content: space-around;
-    align-items: start;
 }
 .checkout{
     width: 50%;
     padding: 20px 50px;
     width: 50%;
-}
-.heading{
-    font-size: 50px;
 }
 .checkout input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
     width: 100%;
@@ -25,7 +25,7 @@
     outline: none;
     border: 1px solid rgb(207, 207, 207);
 }
-.contact-information, .shipping-address h3{
+.contact-information h3, .shipping-address h3{
     margin-top: 30px;
     margin-bottom: 20px;
 }

@@ -1,0 +1,33 @@
+@media screen and (max-width: 576px) {
+    .heading{
+        margin: 20px;
+        text-align: center;
+    }
+    .checkout-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 80%;
+        margin: auto;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .column-input{
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+    }
+    .country, .postal{
+        gap: 0;
+        width: 100%;
+    }
+    .cart-product{
+        width: 100%;
+    }
+    .checkout input[type="text"], input[type="password"], input[type="email"], input[type="number"]{
+        width: 100%;
+    }
+    .checkout{
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
